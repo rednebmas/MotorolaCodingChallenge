@@ -13,6 +13,11 @@
 		22B89D331C687ACD00646367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B89D311C687ACD00646367 /* Main.storyboard */; };
 		22B89D351C687ACD00646367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B89D341C687ACD00646367 /* Assets.xcassets */; };
 		22B89D381C687ACD00646367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B89D361C687ACD00646367 /* LaunchScreen.storyboard */; };
+		22B89D401C687CF100646367 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B89D3F1C687CF100646367 /* QuartzCore.framework */; };
+		22B89D431C687D3800646367 /* BikeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B89D421C687D3800646367 /* BikeTableViewController.m */; };
+		22B89D461C687DC500646367 /* BikeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B89D451C687DC500646367 /* BikeTableViewCell.m */; };
+		22B89D491C687E3200646367 /* Bike.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B89D481C687E3200646367 /* Bike.m */; };
+		22B89D4C1C68808E00646367 /* BikeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B89D4B1C68808E00646367 /* BikeDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		22B89D341C687ACD00646367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B89D371C687ACD00646367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B89D391C687ACD00646367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B89D3F1C687CF100646367 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		22B89D411C687D3800646367 /* BikeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeTableViewController.h; sourceTree = "<group>"; };
+		22B89D421C687D3800646367 /* BikeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeTableViewController.m; sourceTree = "<group>"; };
+		22B89D441C687DC500646367 /* BikeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeTableViewCell.h; sourceTree = "<group>"; };
+		22B89D451C687DC500646367 /* BikeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeTableViewCell.m; sourceTree = "<group>"; };
+		22B89D471C687E3200646367 /* Bike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bike.h; sourceTree = "<group>"; };
+		22B89D481C687E3200646367 /* Bike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bike.m; sourceTree = "<group>"; };
+		22B89D4A1C68808E00646367 /* BikeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BikeDetailViewController.h; sourceTree = "<group>"; };
+		22B89D4B1C68808E00646367 /* BikeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BikeDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B89D401C687CF100646367 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +75,10 @@
 			children = (
 				22B89D2B1C687ACD00646367 /* AppDelegate.h */,
 				22B89D2C1C687ACD00646367 /* AppDelegate.m */,
+				22B89D411C687D3800646367 /* BikeTableViewController.h */,
+				22B89D421C687D3800646367 /* BikeTableViewController.m */,
+				22B89D441C687DC500646367 /* BikeTableViewCell.h */,
+				22B89D451C687DC500646367 /* BikeTableViewCell.m */,
 				22B89D2E1C687ACD00646367 /* ViewController.h */,
 				22B89D2F1C687ACD00646367 /* ViewController.m */,
 				22B89D311C687ACD00646367 /* Main.storyboard */,
@@ -67,6 +86,10 @@
 				22B89D361C687ACD00646367 /* LaunchScreen.storyboard */,
 				22B89D391C687ACD00646367 /* Info.plist */,
 				22B89D281C687ACD00646367 /* Supporting Files */,
+				22B89D471C687E3200646367 /* Bike.h */,
+				22B89D481C687E3200646367 /* Bike.m */,
+				22B89D4A1C68808E00646367 /* BikeDetailViewController.h */,
+				22B89D4B1C68808E00646367 /* BikeDetailViewController.m */,
 			);
 			path = MotorolaCodingChallenge;
 			sourceTree = "<group>";
@@ -74,6 +97,7 @@
 		22B89D281C687ACD00646367 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				22B89D3F1C687CF100646367 /* QuartzCore.framework */,
 				22B89D291C687ACD00646367 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -149,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B89D4C1C68808E00646367 /* BikeDetailViewController.m in Sources */,
+				22B89D491C687E3200646367 /* Bike.m in Sources */,
+				22B89D461C687DC500646367 /* BikeTableViewCell.m in Sources */,
 				22B89D301C687ACD00646367 /* ViewController.m in Sources */,
 				22B89D2D1C687ACD00646367 /* AppDelegate.m in Sources */,
+				22B89D431C687D3800646367 /* BikeTableViewController.m in Sources */,
 				22B89D2A1C687ACD00646367 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
